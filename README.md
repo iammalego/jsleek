@@ -14,7 +14,7 @@
   <a href="https://bundlephobia.com/package/jsleek"><img src="https://img.shields.io/bundlephobia/minzip/jsleek?label=size" alt="bundle size"></a>
 </p>
 
-> Algorithmic JSON compressor. Strips boilerplate, deduplicates schemas, preserves semantics. Drop it in front of any LLM to cut 20–90% of the tokens.
+> Same information, fewer tokens. `jsleek` compresses any JSON payload by up to 73% before it reaches your LLM — measured on live public APIs. Lossless by default, zero dependencies, never throws.
 
 `jsleek` takes a JSON string and returns a smaller JSON string that carries the same information. It works on any JSON — API responses, database dumps, log payloads, MCP tool output, anything. It is lossless by default, has zero runtime dependencies, and **never throws**.
 
