@@ -1,0 +1,95 @@
+{
+  "data": {
+    "users": {
+      "edges": [
+        {
+          "node": {
+            "__typename": "User",
+            "id": "usr_001",
+            "name": "Alice Anderson",
+            "email": "alice@example.com",
+            "role": "ADMIN",
+            "createdAt": "2026-01-05T08:00:00Z",
+            "profile": {
+              "__typename": "Profile",
+              "bio": "Software engineer",
+              "avatar": "https://cdn.example.com/avatars/alice.jpg"
+            }
+          },
+          "cursor": "Y3Vyc29yOnVzZXI6MQ=="
+        },
+        {
+          "node": {
+            "__typename": "User",
+            "id": "usr_002",
+            "name": "Bob Baker",
+            "email": "bob@example.com",
+            "role": "USER",
+            "createdAt": "2026-01-10T09:00:00Z",
+            "profile": {
+              "__typename": "Profile",
+              "bio": "Product designer",
+              "avatar": "https://cdn.example.com/avatars/bob.jpg"
+            }
+          },
+          "cursor": "Y3Vyc29yOnVzZXI6Mg=="
+        },
+        {
+          "node": {
+            "__typename": "User",
+            "id": "usr_003",
+            "name": "Carol Chen",
+            "email": "carol@example.com",
+            "role": "USER",
+            "createdAt": "2026-01-15T10:00:00Z",
+            "profile": {
+              "__typename": "Profile",
+              "bio": "Data scientist",
+              "avatar": "https://cdn.example.com/avatars/carol.jpg"
+            }
+          },
+          "cursor": "Y3Vyc29yOnVzZXI6Mw=="
+        },
+        {
+          "node": {
+            "__typename": "User",
+            "id": "usr_004",
+            "name": "Dave Davis",
+            "email": "dave@example.com",
+            "role": "USER",
+            "createdAt": "2026-01-20T11:00:00Z",
+            "profile": {
+              "__typename": "Profile",
+              "bio": "DevOps engineer",
+              "avatar": "https://cdn.example.com/avatars/dave.jpg"
+            }
+          },
+          "cursor": "Y3Vyc29yOnVzZXI6NA=="
+        },
+        {
+          "node": {
+            "__typename": "User",
+            "id": "usr_005",
+            "name": "Eve Edwards",
+            "email": "eve@example.com",
+            "role": "MODERATOR",
+            "createdAt": "2026-01-25T12:00:00Z",
+            "profile": {
+              "__typename": "Profile",
+              "bio": "Community manager",
+              "avatar": "https://cdn.example.com/avatars/eve.jpg"
+            }
+          },
+          "cursor": "Y3Vyc29yOnVzZXI6NQ=="
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": true,
+        "hasPreviousPage": false,
+        "startCursor": "Y3Vyc29yOnVzZXI6MQ==",
+        "endCursor": "Y3Vyc29yOnVzZXI6NQ=="
+      },
+      "totalCount": 42
+    }
+  }
+}

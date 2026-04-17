@@ -1,0 +1,98 @@
+{
+  "data": [
+    {
+      "type": "articles",
+      "id": "1",
+      "attributes": {
+        "title": "Introduction to JSON:API",
+        "body": "JSON:API is a specification for building APIs in JSON format.",
+        "published": true,
+        "created_at": "2026-01-10T10:00:00Z"
+      },
+      "relationships": {
+        "author": {
+          "data": { "type": "people", "id": "9" },
+          "links": { "self": "/articles/1/relationships/author", "related": "/articles/1/author" }
+        }
+      },
+      "links": { "self": "/articles/1" }
+    },
+    {
+      "type": "articles",
+      "id": "2",
+      "attributes": {
+        "title": "Advanced TypeScript Patterns",
+        "body": "Learn about conditional types, mapped types, and template literals.",
+        "published": true,
+        "created_at": "2026-02-15T14:00:00Z"
+      },
+      "relationships": {
+        "author": {
+          "data": { "type": "people", "id": "9" },
+          "links": { "self": "/articles/2/relationships/author", "related": "/articles/2/author" }
+        }
+      },
+      "links": { "self": "/articles/2" }
+    },
+    {
+      "type": "articles",
+      "id": "3",
+      "attributes": {
+        "title": "Building CLI Tools with Node.js",
+        "body": "A comprehensive guide to creating powerful CLI tools.",
+        "published": false,
+        "created_at": "2026-03-20T09:00:00Z"
+      },
+      "relationships": {
+        "author": {
+          "data": { "type": "people", "id": "12" },
+          "links": { "self": "/articles/3/relationships/author", "related": "/articles/3/author" }
+        }
+      },
+      "links": { "self": "/articles/3" }
+    },
+    {
+      "type": "articles",
+      "id": "4",
+      "attributes": {
+        "title": "Testing Strategies for Modern Apps",
+        "body": "Unit tests, integration tests, and end-to-end testing explained.",
+        "published": true,
+        "created_at": "2026-04-05T11:00:00Z"
+      },
+      "relationships": {
+        "author": {
+          "data": { "type": "people", "id": "9" },
+          "links": { "self": "/articles/4/relationships/author", "related": "/articles/4/author" }
+        }
+      },
+      "links": { "self": "/articles/4" }
+    },
+    {
+      "type": "articles",
+      "id": "5",
+      "attributes": {
+        "title": "Performance Optimization in React",
+        "body": "Memoization, code splitting, and lazy loading for better performance.",
+        "published": true,
+        "created_at": "2026-05-12T16:00:00Z"
+      },
+      "relationships": {
+        "author": {
+          "data": { "type": "people", "id": "12" },
+          "links": { "self": "/articles/5/relationships/author", "related": "/articles/5/author" }
+        }
+      },
+      "links": { "self": "/articles/5" }
+    }
+  ],
+  "links": {
+    "self": "/articles",
+    "first": "/articles?page[number]=1",
+    "last": "/articles?page[number]=3",
+    "next": "/articles?page[number]=2"
+  },
+  "meta": {
+    "total": 5
+  }
+}

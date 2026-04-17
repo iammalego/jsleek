@@ -1,0 +1,89 @@
+name: Bug report
+description: Something isn't working as expected.
+title: '[bug]: '
+labels: ['bug', 'needs-triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please fill in as much detail as possible — a minimal reproduction is the single most helpful thing you can provide.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+      placeholder: 'compact() returned X when I passed Y...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: The smallest code snippet that reproduces the issue.
+      render: typescript
+      placeholder: |
+        import { compact } from 'jsleek'
+
+        const json = JSON.stringify({ /* ... */ })
+        const result = compact(json)
+        console.log(result)
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: 'I expected compact() to...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the full error message and stack trace if applicable.
+      placeholder: 'Instead, it returned...'
+    validations:
+      required: true
+
+  - type: input
+    id: jsleek-version
+    attributes:
+      label: jsleek version
+      placeholder: '0.1.0'
+    validations:
+      required: true
+
+  - type: input
+    id: node-version
+    attributes:
+      label: Node.js version
+      placeholder: '22.x'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: payload-type
+    attributes:
+      label: Payload type
+      description: What kind of JSON are you compressing?
+      options:
+        - HAL+JSON (Kommo-style)
+        - GitHub API
+        - GraphQL
+        - Stripe
+        - Other
+    validations:
+      required: false
+
+  - type: textarea
+    id: json-sample
+    attributes:
+      label: JSON sample (optional)
+      description: A minimal JSON input that reproduces the issue. Redact any secrets.
+      render: json
+    validations:
+      required: false

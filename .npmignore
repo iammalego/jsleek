@@ -1,0 +1,12 @@
+tests/
+docs/
+.github/
+.atl/
+eslint.config.js
+.prettierrc.json
+.prettierignore
+tsconfig.json
+tsconfig.build.json
+tsup.config.ts
+vitest.config.ts
+CONTRIBUTING.md

@@ -1,0 +1,82 @@
+{
+  "object": "list",
+  "url": "/v1/charges",
+  "has_more": false,
+  "data": [
+    {
+      "id": "ch_001",
+      "object": "charge",
+      "amount": 2000,
+      "currency": "usd",
+      "status": "succeeded",
+      "paid": true,
+      "description": "Payment for order #001",
+      "customer": "cus_001",
+      "created": 1700001000,
+      "metadata": { "order_id": "001", "source": "web" },
+      "payment_method": "pm_001",
+      "request_id": "req_stripe_001",
+      "trace_id": "trace-111"
+    },
+    {
+      "id": "ch_002",
+      "object": "charge",
+      "amount": 4500,
+      "currency": "usd",
+      "status": "succeeded",
+      "paid": true,
+      "description": "Payment for order #002",
+      "customer": "cus_002",
+      "created": 1700002000,
+      "metadata": { "order_id": "002", "source": "mobile" },
+      "payment_method": "pm_002",
+      "request_id": "req_stripe_002",
+      "trace_id": "trace-222"
+    },
+    {
+      "id": "ch_003",
+      "object": "charge",
+      "amount": 1500,
+      "currency": "usd",
+      "status": "failed",
+      "paid": false,
+      "description": "Payment for order #003",
+      "customer": "cus_003",
+      "created": 1700003000,
+      "metadata": { "order_id": "003", "source": "web" },
+      "payment_method": "pm_003",
+      "request_id": "req_stripe_003",
+      "trace_id": "trace-333"
+    },
+    {
+      "id": "ch_004",
+      "object": "charge",
+      "amount": 9999,
+      "currency": "usd",
+      "status": "succeeded",
+      "paid": true,
+      "description": "Payment for order #004",
+      "customer": "cus_004",
+      "created": 1700004000,
+      "metadata": { "order_id": "004", "source": "api" },
+      "payment_method": "pm_004",
+      "request_id": "req_stripe_004",
+      "trace_id": "trace-444"
+    },
+    {
+      "id": "ch_005",
+      "object": "charge",
+      "amount": 500,
+      "currency": "usd",
+      "status": "succeeded",
+      "paid": true,
+      "description": "Payment for order #005",
+      "customer": "cus_005",
+      "created": 1700005000,
+      "metadata": { "order_id": "005", "source": "web" },
+      "payment_method": "pm_005",
+      "request_id": "req_stripe_005",
+      "trace_id": "trace-555"
+    }
+  ]
+}

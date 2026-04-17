@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Read the README
+    url: https://github.com/iammalego/jsleek#readme
+    about: Most questions about usage, options, and the pipeline are answered in the README.

@@ -1,0 +1,160 @@
+{
+  "_links": {
+    "self": { "href": "https://example.kommo.com/api/v4/leads?page=1&limit=10" },
+    "next": { "href": "https://example.kommo.com/api/v4/leads?page=2&limit=10" }
+  },
+  "_embedded": {
+    "leads": [
+      {
+        "id": 1001,
+        "name": "Lead Alpha",
+        "status_id": 143,
+        "pipeline_id": 3219,
+        "responsible_user_id": 504,
+        "created_at": 1700000001,
+        "updated_at": 1700000201,
+        "request_id": "req-aaaaa",
+        "etag": "W/\"abc001\"",
+        "__v": 0,
+        "custom_fields_values": [
+          { "field_id": 10, "field_name": "Phone", "values": [{ "value": "+1-555-0001" }] }
+        ]
+      },
+      {
+        "id": 1002,
+        "name": "Lead Beta",
+        "status_id": 143,
+        "pipeline_id": 3219,
+        "responsible_user_id": 504,
+        "created_at": 1700000002,
+        "updated_at": 1700000202,
+        "request_id": "req-bbbbb",
+        "etag": "W/\"abc002\"",
+        "__v": 0,
+        "custom_fields_values": [
+          { "field_id": 10, "field_name": "Phone", "values": [{ "value": "+1-555-0002" }] }
+        ]
+      },
+      {
+        "id": 1003,
+        "name": "Lead Gamma",
+        "status_id": 143,
+        "pipeline_id": 3219,
+        "responsible_user_id": 504,
+        "created_at": 1700000003,
+        "updated_at": 1700000203,
+        "request_id": "req-ccccc",
+        "etag": "W/\"abc003\"",
+        "__v": 0,
+        "custom_fields_values": [
+          { "field_id": 10, "field_name": "Phone", "values": [{ "value": "+1-555-0003" }] }
+        ]
+      },
+      {
+        "id": 1004,
+        "name": "Lead Delta",
+        "status_id": 143,
+        "pipeline_id": 3219,
+        "responsible_user_id": 504,
+        "created_at": 1700000004,
+        "updated_at": 1700000204,
+        "request_id": "req-ddddd",
+        "etag": "W/\"abc004\"",
+        "__v": 0,
+        "custom_fields_values": [
+          { "field_id": 10, "field_name": "Phone", "values": [{ "value": "+1-555-0004" }] }
+        ]
+      },
+      {
+        "id": 1005,
+        "name": "Lead Epsilon",
+        "status_id": 143,
+        "pipeline_id": 3219,
+        "responsible_user_id": 504,
+        "created_at": 1700000005,
+        "updated_at": 1700000205,
+        "request_id": "req-eeeee",
+        "etag": "W/\"abc005\"",
+        "__v": 0,
+        "custom_fields_values": [
+          { "field_id": 10, "field_name": "Phone", "values": [{ "value": "+1-555-0005" }] }
+        ]
+      },
+      {
+        "id": 1006,
+        "name": "Lead Zeta",
+        "status_id": 143,
+        "pipeline_id": 3219,
+        "responsible_user_id": 504,
+        "created_at": 1700000006,
+        "updated_at": 1700000206,
+        "request_id": "req-fffff",
+        "etag": "W/\"abc006\"",
+        "__v": 0,
+        "custom_fields_values": [
+          { "field_id": 10, "field_name": "Phone", "values": [{ "value": "+1-555-0006" }] }
+        ]
+      },
+      {
+        "id": 1007,
+        "name": "Lead Eta",
+        "status_id": 143,
+        "pipeline_id": 3219,
+        "responsible_user_id": 504,
+        "created_at": 1700000007,
+        "updated_at": 1700000207,
+        "request_id": "req-ggggg",
+        "etag": "W/\"abc007\"",
+        "__v": 0,
+        "custom_fields_values": [
+          { "field_id": 10, "field_name": "Phone", "values": [{ "value": "+1-555-0007" }] }
+        ]
+      },
+      {
+        "id": 1008,
+        "name": "Lead Theta",
+        "status_id": 143,
+        "pipeline_id": 3219,
+        "responsible_user_id": 504,
+        "created_at": 1700000008,
+        "updated_at": 1700000208,
+        "request_id": "req-hhhhh",
+        "etag": "W/\"abc008\"",
+        "__v": 0,
+        "custom_fields_values": [
+          { "field_id": 10, "field_name": "Phone", "values": [{ "value": "+1-555-0008" }] }
+        ]
+      },
+      {
+        "id": 1009,
+        "name": "Lead Iota",
+        "status_id": 143,
+        "pipeline_id": 3219,
+        "responsible_user_id": 504,
+        "created_at": 1700000009,
+        "updated_at": 1700000209,
+        "request_id": "req-iiiii",
+        "etag": "W/\"abc009\"",
+        "__v": 0,
+        "custom_fields_values": [
+          { "field_id": 10, "field_name": "Phone", "values": [{ "value": "+1-555-0009" }] }
+        ]
+      },
+      {
+        "id": 1010,
+        "name": "Lead Kappa",
+        "status_id": 143,
+        "pipeline_id": 3219,
+        "responsible_user_id": 504,
+        "created_at": 1700000010,
+        "updated_at": 1700000210,
+        "request_id": "req-jjjjj",
+        "etag": "W/\"abc010\"",
+        "__v": 0,
+        "custom_fields_values": [
+          { "field_id": 10, "field_name": "Phone", "values": [{ "value": "+1-555-0010" }] }
+        ]
+      }
+    ]
+  }
+}
